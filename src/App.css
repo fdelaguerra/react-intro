@@ -1,0 +1,80 @@
+body {
+  font-family: canada-type-gibson, Helvetica, sans-serif;
+  text-align: center;
+  color: #414141;
+}
+
+.App {
+  background-color: #414141;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: canada-type-gibson, Helvetica, sans-serif;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+label {
+  padding: 10px;
+}
+
+.intro {
+  font-family: canada-type-gibson, Helvetica, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+.card {
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+}
+
+.sample {
+  padding: 30px;
+  border: #a1a1a1c0 .5px solid;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 8px 10px 10px 1px #4141418c;
+  text-align: left;
+
+}
+
+a {
+  color: #414141;
+}
+a:hover {
+  color: crimson;
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul li {
+  list-style: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
